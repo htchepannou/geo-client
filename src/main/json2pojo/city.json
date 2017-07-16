@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "long"
+    },
+    "name": {
+      "type": "string"
+    },
+    "asciiName": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "timeZone":{
+      "type": "string"
+    },
+    "population":{
+      "type": "integer"
+    }
+  }
+}

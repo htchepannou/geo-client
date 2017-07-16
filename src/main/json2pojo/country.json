@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "long"
+    },
+
+    "iso": {
+      "type": "string"
+    },
+    "iso3": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "area": {
+      "type": "integer"
+    },
+    "population": {
+      "type": "integer"
+    },
+    "currencyCode": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "topLevelDomain": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "long"
+    },
+    "featureType":{
+      "type": "string",
+      "enum": ["airport", "train_station", "bus_station"]
+    },
+    "cityId": {
+      "type": "long"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "fax": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "$ref": "address.json"
+    },
+    "geoPoint": {
+      "$ref": "geoPoint.json"
+    }
+  }
+}
