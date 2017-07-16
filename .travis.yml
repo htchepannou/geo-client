@@ -9,7 +9,7 @@ sudo:
 install: true
 
 script:
-  - mvn clean install
+  - mvn clean deploy --settings settings.xml
 
 notifications:
   email:
